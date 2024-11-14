@@ -1,0 +1,1314 @@
+{
+  "OpenAI": {
+    "status": "Success",
+    "response": "ChatCompletion(id='chatcmpl-ATLfZMBjpyllBwNw6nQoHsvcBx1Lo', choices=[Choice(finish_reason='stop', index=0, message=ChatCompletionMessage(content=\"Hello! I'm just a computer program, so I don't have feelings, but I'm here and ready to help you with anything you need. How can I assist you today?\", role='assistant', function_call=None, tool_calls=None, refusal=None), logprobs=None)], created=1731558173, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=37, prompt_tokens=13, total_tokens=50, prompt_tokens_details={'cached_tokens': 0, 'audio_tokens': 0}, completion_tokens_details={'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}))"
+  },
+  "Anthropic": {
+    "status": "Failed",
+    "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}}"
+  },
+  "Perplexity": {
+    "status": "Success",
+    "response": {
+      "id": "482e1e77-9df7-48a6-a5eb-64cb081f32c4",
+      "model": "llama-3.1-sonar-small-128k-online",
+      "created": 1731558176,
+      "usage": {
+        "prompt_tokens": 11,
+        "completion_tokens": 150,
+        "total_tokens": 161
+      },
+      "citations": [
+        "https://www.youtube.com/watch?v=p3XPRgf4qG4",
+        "https://www.youtube.com/watch?v=tVlcKp3bWH8",
+        "https://www.youtube.com/watch?v=q5BcGrOny-k",
+        "https://nohello.net/en/",
+        "https://www.youtube.com/watch?v=gghDRJVxFxU"
+      ],
+      "object": "chat.completion",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "To greet someone and ask how they are, you can use the following phrases:\n\n1. **Simple Greeting**:\n   - \"Hello, how are you?\"[2][3]\n\n2. **Variations**:\n   - \"Hello Hello How are you?\" (repeated for emphasis)[1].\n   - \"Hello Hello How are you?\" (with actions like fist bumping, high-fiving, or hugging)[1].\n   - \"Hello Hello How are you?\" (with additional phrases like \"I'm fine,\" \"I'm great,\" or \"I'm not so good\")[2][3].\n\nThese greetings are commonly used in educational settings and are designed to be fun and engaging for children."
+          },
+          "delta": {
+            "role": "assistant",
+            "content": ""
+          }
+        }
+      ]
+    }
+  },
+  "Gemini": {
+    "status": "Success",
+    "response": {
+      "text": "I am a large language model, trained by Google. I don't have personal experiences or feelings, so I don't have a state of being or emotions. I am designed to understand and generate human language, and to provide information and assistance to the best of my abilities.",
+      "model": "gemini-pro"
+    }
+  },
+  "Grok": {
+    "status": "Success",
+    "response": {
+      "id": "af231f51-4f62-4bc5-a4d4-e8213ef80b0b",
+      "object": "chat.completion",
+      "created": 1731558178,
+      "model": "grok-beta",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Hey there! I'm Grok, the AI with a rebellious streak and a touch of humor. I'm doing great, thanks for asking! How can I help you today?",
+            "refusal": null
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 34,
+        "completion_tokens": 37,
+        "total_tokens": 71
+      },
+      "system_fingerprint": "fp_14b89b2dfc"
+    }
+  },
+  "SerpAPI": {
+    "status": "Success",
+    "response": {
+      "search_metadata": {
+        "id": "67356f52b7d31d5387f4bc6a",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/e19f6b779a3a721a/67356f52b7d31d5387f4bc6a.json",
+        "created_at": "2024-11-14 03:32:34 UTC",
+        "processed_at": "2024-11-14 03:32:34 UTC",
+        "google_url": "https://www.google.com/search?q=test+query&oq=test+query&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/e19f6b779a3a721a/67356f52b7d31d5387f4bc6a.html",
+        "total_time_taken": 1.37
+      },
+      "search_parameters": {
+        "engine": "google",
+        "q": "test query",
+        "google_domain": "google.com",
+        "device": "desktop"
+      },
+      "search_information": {
+        "query_displayed": "test query",
+        "total_results": 457000000,
+        "time_taken_displayed": 0.29,
+        "organic_results_state": "Results for exact spelling"
+      },
+      "inline_videos": [
+        {
+          "position": 1,
+          "title": "SQL Test Kit, or how to unit test any SQL query by Victor ...",
+          "link": "https://www.youtube.com/watch?v=chB5f80U9jA",
+          "thumbnail": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/784eaff310508942f9bd4f5e319b210c3647db917d22edce031ba96a694ca213.jpeg",
+          "channel": "Devoxx",
+          "duration": "13:07",
+          "date": "Mar 13, 2024"
+        },
+        {
+          "position": 2,
+          "title": "SQL Queries and Database Testing - Learn Basics in 10 ...",
+          "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y",
+          "thumbnail": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/784eaff3105089428d0b55ab3efb22baba9bd6149b0f513d94d88f3b51a600e9.jpeg",
+          "channel": "Software Testing with Ozan Ilhan | NomadTester",
+          "duration": "11:16",
+          "date": "Jul 21, 2019",
+          "key_moments": [
+            {
+              "time": "00:40",
+              "title": "SELECT Statement",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=40",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Beq602rmEVv23J3DwiJETbLgHKyB1QbnajFVYTOEkg&s"
+            },
+            {
+              "time": "03:22",
+              "title": "Operators in SQL",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=202",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMP5yFLNFoe9lgyMzuWiORrXVfohc6YIsZxpY-goO2Rg&s"
+            },
+            {
+              "time": "04:05",
+              "title": "Integer operators in SQL",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=245",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF69CqxOLChff2kKwOyR1wPBuWw5wWxaSQ1NYuBMUgXg&s"
+            },
+            {
+              "time": "04:48",
+              "title": "ORDER BY Statement in SQL",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=288",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuDYxAG8QsdwHQFvDkif3vBEU88egRwQXV4BSEwtW0Q&s"
+            },
+            {
+              "time": "06:05",
+              "title": "INSERT statement",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=365",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFsE-9JR1P16L1pZc7nGk0Xh0bEeWXVCCD53stj1bEQ&s"
+            },
+            {
+              "time": "06:44",
+              "title": "Inserting Data",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=404",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZV6WyYF8opeZu0_AGlUF_oOtso-X4Yg2JjiAITm8WA&s"
+            },
+            {
+              "time": "08:23",
+              "title": "UPDATE Statement",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=503",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-96dyUP70aDki128M_s7S3YY14VP0VSg7-Dg1pbsFg&s"
+            },
+            {
+              "time": "09:20",
+              "title": "DELETE Statement",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=560",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQNwD2DuSPj0elga6lffido1hG7oL-ldAqmmxkvtXzA&s"
+            },
+            {
+              "time": "09:55",
+              "title": "SQL DELETE Statement",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=595",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUILV87ZilRz_TZdf0hRUcrcz9hIZ3zuNn0h-z0r8rRQ&s"
+            },
+            {
+              "time": "11:03",
+              "title": "Conclusion",
+              "link": "https://m.youtube.com/watch?v=FAb3kB2LO2Y&t=663",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXW23CVaAoE__4K8sbsc96stgcWaTcmlxbdFscDbGxA&s"
+            }
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Testing Your Code Using the [DAX] Query View!",
+          "link": "https://www.youtube.com/watch?v=A25WoAxvLRU",
+          "thumbnail": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/784eaff310508942c1313cab7d8d630b0d9219ea02eb42a523fbd75545f9dcab.jpeg",
+          "channel": "Havens Consulting",
+          "duration": "10:23",
+          "date": "Feb 6, 2024",
+          "key_moments": [
+            {
+              "time": "00:00",
+              "title": "Start of Video",
+              "link": "https://www.youtube.com/watch?v=A25WoAxvLRU&t=0",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnR5OJiApTsmMN_dgiJwKsdXmN2bG5njlm1M6ncRKvLw&s"
+            },
+            {
+              "time": "00:30",
+              "title": "Content Intro",
+              "link": "https://www.youtube.com/watch?v=A25WoAxvLRU&t=30",
+              "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1AlvMTQeMZnhK0h0U6M_vBpTvseExPHl-BCo9pUeQcg&s"
+            }
+          ]
+        }
+      ],
+      "related_questions": [
+        {
+          "question": "What is query in testing?",
+          "snippet": "Queries are the methods that Testing Library gives you to find elements on the page. There are several types of queries (\"get\", \"find\", \"query\"); the difference between them is whether the query will throw an error if no element is found or if it will return a Promise and retry.",
+          "title": "About Queries | Testing Library",
+          "date": "Mar 19, 2024",
+          "link": "https://testing-library.com/docs/queries/about/#:~:text=Queries%20are%20the%20methods%20that,return%20a%20Promise%20and%20retry.",
+          "displayed_link": "https://testing-library.com \u203a docs \u203a queries \u203a about",
+          "source_logo": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/0b77cdbc8d0bb18cf9af386288858f646ed9eacfe4976a040a009e184e04b2af.webp",
+          "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBxdWVyeSBpbiB0ZXN0aW5nPyIsImxrIjoiR2hoM2FHRjBJR2x6SUhGMVpYSjVJR2x1SUhSbGMzUnBibWMiLCJicyI6ImMtT3k0cElNejBnc1VjZ3NWaWdzVFMycVZNak1VeWhKTFM3SnpFdTNsN2dYYnlRbEpWR09RNTdMaGt2S0k3OWNJU1Zmd1JNc3BwQ29FQnpvQTFGbkxfR3F4RWhhU2pJRG9pQVRwcUM0TUFlaWdNdU1TeHpWNXVUODNOekV2SlJpZTRrX0drWVNVbUxsV0dYaC1oS0xVcUZTUmFuRnBUa2xRSDFYR2VINk1HUUZHQUUiLCJpZCI6ImZjX1UyODFaNUM4SDUyeGt2UVByUE9QS0FfMSJ9",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBxdWVyeSBpbiB0ZXN0aW5nPyIsImxrIjoiR2hoM2FHRjBJR2x6SUhGMVpYSjVJR2x1SUhSbGMzUnBibWMiLCJicyI6ImMtT3k0cElNejBnc1VjZ3NWaWdzVFMycVZNak1VeWhKTFM3SnpFdTNsN2dYYnlRbEpWR09RNTdMaGt2S0k3OWNJU1Zmd1JNc3BwQ29FQnpvQTFGbkxfR3F4RWhhU2pJRG9pQVRwcUM0TUFlaWdNdU1TeHpWNXVUODNOekV2SlJpZTRrX0drWVNVbUxsV0dYaC1oS0xVcUZTUmFuRnBUa2xRSDFYR2VINk1HUUZHQUUiLCJpZCI6ImZjX1UyODFaNUM4SDUyeGt2UVByUE9QS0FfMSJ9"
+        },
+        {
+          "question": "How do I test a SQL query?",
+          "snippet": "The first step in testing SQL queries is to write test cases. A test case is a set of inputs and expected outputs that you can use to validate the correctness of a SQL query. In Python, we can write test cases using the unittest module.",
+          "title": "How to Test and Debug SQL Queries with Python - freeCodeCamp",
+          "date": "Mar 6, 2023",
+          "link": "https://www.freecodecamp.org/news/testing-and-debugging-sql-queries-with-python/#:~:text=The%20first%20step%20in%20testing,cases%20using%20the%20unittest%20module.",
+          "displayed_link": "https://www.freecodecamp.org \u203a news \u203a testing-and-deb...",
+          "source_logo": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/0b77cdbc8d0bb18cf9af386288858f64b4947f7a508e65aca3e2b7a7c7ea5748.png",
+          "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiSG93IGRvIEkgdGVzdCBhIFNRTCBxdWVyeT8iLCJsayI6IkdobG9iM2NnWkc4Z2FTQjBaWE4wSUdFZ2MzRnNJSEYxWlhKNSIsImJzIjoiYy1PeTRwSU16MGdzVWNnc1ZpZ3NUUzJxVk1qTVV5aEpMUzdKekV1M2w3Z1hieVFsSlZHT1E1N0xoa3ZLSTc5Y0lTVmZ3Uk1zcHBDb0VCem9BMUZuTF9HcXhFaGFTaklEb2lBVHBxQzRNQWVpZ011TVN4elY1dVQ4M056RXZKUmllNGtfR2tZU1VtTGxXR1hoLWhLTFVxRlNSYW5GcFRrbFFIMVhHZUg2TUdRRkdBRSIsImlkIjoiZmNfVTI4MVo1QzhINTJ4a3ZRUHJQT1BLQV8xIn0=",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiSG93IGRvIEkgdGVzdCBhIFNRTCBxdWVyeT8iLCJsayI6IkdobG9iM2NnWkc4Z2FTQjBaWE4wSUdFZ2MzRnNJSEYxWlhKNSIsImJzIjoiYy1PeTRwSU16MGdzVWNnc1ZpZ3NUUzJxVk1qTVV5aEpMUzdKekV1M2w3Z1hieVFsSlZHT1E1N0xoa3ZLSTc5Y0lTVmZ3Uk1zcHBDb0VCem9BMUZuTF9HcXhFaGFTaklEb2lBVHBxQzRNQWVpZ011TVN4elY1dVQ4M056RXZKUmllNGtfR2tZU1VtTGxXR1hoLWhLTFVxRlNSYW5GcFRrbFFIMVhHZUg2TUdRRkdBRSIsImlkIjoiZmNfVTI4MVo1QzhINTJ4a3ZRUHJQT1BLQV8xIn0%3D"
+        },
+        {
+          "question": "What is query commands?",
+          "snippet": "Use the query command to search for objects in the database. Rational\u00ae Synergy evaluates a query expression during a search operation. The query expression can consist of any query clause from query-related options combined with any query_string argument.",
+          "title": "query command - IBM",
+          "link": "https://www.ibm.com/docs/en/rational-synergy/7.2.0?topic=operations-query-command#:~:text=Use%20the%20query%20command%20to,combined%20with%20any%20query_string%20argument.",
+          "displayed_link": "https://www.ibm.com \u203a docs \u203a rational-synergy \u203a topic=...",
+          "source_logo": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/0b77cdbc8d0bb18cf9af386288858f64b7ade713c96127c7a94454c569c63d08.png",
+          "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBxdWVyeSBjb21tYW5kcz8iLCJsayI6IkdoWjNhR0YwSUdseklIRjFaWEo1SUdOdmJXMWhibVJ6IiwiYnMiOiJjLU95NHBJTXowZ3NVY2dzVmlnc1RTMnFWTWpNVXloSkxTN0p6RXUzbDdnWGJ5UWxKVkdPUTU3TGhrdktJNzljSVNWZndSTXNwcENvRUJ6b0ExRm5MX0dxeEVoYVNqSURvaUFUcHFDNE1BZWlnTXVNU3h6VjV1VDgzTnpFdkpSaWU0a19Ha1lTVW1MbFdHWGgtaEtMVXFGU1JhbkZwVGtsUUgxWEdlSDZNR1FGR0FFIiwiaWQiOiJmY19VMjgxWjVDOEg1MnhrdlFQclBPUEtBXzEifQ==",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBxdWVyeSBjb21tYW5kcz8iLCJsayI6IkdoWjNhR0YwSUdseklIRjFaWEo1SUdOdmJXMWhibVJ6IiwiYnMiOiJjLU95NHBJTXowZ3NVY2dzVmlnc1RTMnFWTWpNVXloSkxTN0p6RXUzbDdnWGJ5UWxKVkdPUTU3TGhrdktJNzljSVNWZndSTXNwcENvRUJ6b0ExRm5MX0dxeEVoYVNqSURvaUFUcHFDNE1BZWlnTXVNU3h6VjV1VDgzTnpFdkpSaWU0a19Ha1lTVW1MbFdHWGgtaEtMVXFGU1JhbkZwVGtsUUgxWEdlSDZNR1FGR0FFIiwiaWQiOiJmY19VMjgxWjVDOEg1MnhrdlFQclBPUEtBXzEifQ%3D%3D"
+        },
+        {
+          "question": "What are query results?",
+          "snippet": "Query Results means the list of results (e.g., website links, graphs, statistics or other data) that Licensee is given access to through the Services depending on the parameters of its search query; Sample 1.",
+          "title": "Query Results Definition | Law Insider",
+          "link": "https://www.lawinsider.com/dictionary/query-results#:~:text=Query%20Results%20means%20the%20list,Sample%201",
+          "displayed_link": "https://www.lawinsider.com \u203a dictionary \u203a query-results",
+          "source_logo": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/0b77cdbc8d0bb18cf9af386288858f640fb210b48de6fd507668521d4a26306d.png",
+          "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgcXVlcnkgcmVzdWx0cz8iLCJsayI6IkdoWjNhR0YwSUdGeVpTQnhkV1Z5ZVNCeVpYTjFiSFJ6IiwiYnMiOiJjLU95NHBJTXowZ3NVY2dzVmlnc1RTMnFWTWpNVXloSkxTN0p6RXUzbDdnWGJ5UWxKVkdPUTU3TGhrdktJNzljSVNWZndSTXNwcENvRUJ6b0ExRm5MX0dxeEVoYVNqSURvaUFUcHFDNE1BZWlnTXVNU3h6VjV1VDgzTnpFdkpSaWU0a19Ha1lTVW1MbFdHWGgtaEtMVXFGU1JhbkZwVGtsUUgxWEdlSDZNR1FGR0FFIiwiaWQiOiJmY19VMjgxWjVDOEg1MnhrdlFQclBPUEtBXzEifQ==",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTa2M1U210UFFrVnhPSEJTYVhOaFNUTmlURFJXWm1keGN6UmliVlpDY25VeVMyZFBVbkJwTUdocFozZHlWRzgxTVVKaFZHeGplVUZuUWxwM01ESTFTMmQ0T0ZaaVQyOTJlVms1V0RBMFVucHpWa2xvZEZaMGFrWTJXRFpFUTBSRlVSSVdWVEk0TVZvMVF6aElOVEo0YTNaUlVISlFUMUJMUVJvaVFVWllja1ZqY1cxelEwRTVhbW8yUkdoZlNWWk9ORVIzVmxwQmIycERTVFZTZHciLCJmY3YiOiIzIiwiZWkiOiJVMjgxWjVDOEg1MnhrdlFQclBPUEtBIiwicWMiOiJDZ3AwWlhOMElIRjFaWEo1RUFCOTJZOFlQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgcXVlcnkgcmVzdWx0cz8iLCJsayI6IkdoWjNhR0YwSUdGeVpTQnhkV1Z5ZVNCeVpYTjFiSFJ6IiwiYnMiOiJjLU95NHBJTXowZ3NVY2dzVmlnc1RTMnFWTWpNVXloSkxTN0p6RXUzbDdnWGJ5UWxKVkdPUTU3TGhrdktJNzljSVNWZndSTXNwcENvRUJ6b0ExRm5MX0dxeEVoYVNqSURvaUFUcHFDNE1BZWlnTXVNU3h6VjV1VDgzTnpFdkpSaWU0a19Ha1lTVW1MbFdHWGgtaEtMVXFGU1JhbkZwVGtsUUgxWEdlSDZNR1FGR0FFIiwiaWQiOiJmY19VMjgxWjVDOEg1MnhrdlFQclBPUEtBXzEifQ%3D%3D"
+        }
+      ],
+      "organic_results": [
+        {
+          "position": 1,
+          "title": "Efficient SQL test query or validation query that will work ...",
+          "link": "https://stackoverflow.com/questions/3668506/efficient-sql-test-query-or-validation-query-that-will-work-across-all-or-most",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://stackoverflow.com/questions/3668506/efficient-sql-test-query-or-validation-query-that-will-work-across-all-or-most&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECAsQAQ",
+          "displayed_link": "https://stackoverflow.com \u203a questions \u203a efficient-sql-test...",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebdae84e3b1a97d0844f490d1af6221beee.webp",
+          "snippet": "This is the query that will be executed just before a connection is given to you from the pool to validate that the connection to the database is still alive.",
+          "snippet_highlighted_words": [
+            "query"
+          ],
+          "sitelinks": {
+            "list": [
+              {
+                "title": "Is there a command to test an SQL query without ...",
+                "link": "https://stackoverflow.com/questions/2433633/is-there-a-command-to-test-an-sql-query-without-executing-it-mysql-or-ansi-sq",
+                "answer_count": 9,
+                "date": "Mar 12, 2010"
+              },
+              {
+                "title": "How to test your query first before running it sql server",
+                "link": "https://stackoverflow.com/questions/24579551/how-to-test-your-query-first-before-running-it-sql-server",
+                "answer_count": 5,
+                "date": "Jul 4, 2014"
+              },
+              {
+                "title": "Best way to test SQL queries [closed] - Stack Overflow",
+                "link": "https://stackoverflow.com/questions/754527/best-way-to-test-sql-queries",
+                "answer_count": 4,
+                "date": "Apr 16, 2009"
+              },
+              {
+                "title": "What best practices do you use for testing database ...",
+                "link": "https://stackoverflow.com/questions/260342/what-best-practices-do-you-use-for-testing-database-queries",
+                "answer_count": 9,
+                "date": "Nov 3, 2008"
+              }
+            ]
+          },
+          "source": "Stack Overflow"
+        },
+        {
+          "position": 2,
+          "title": "SQL Test",
+          "link": "https://sqltest.net/",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sqltest.net/&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECBoQAQ",
+          "displayed_link": "https://sqltest.net",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebdff03df194999c4894291db6a0467ff60.webp",
+          "snippet": "FREE online SQL query test tool. Only registered users can use additional My SQL Test History tool.",
+          "snippet_highlighted_words": [
+            "query test",
+            "Test"
+          ],
+          "source": "SQLTest"
+        },
+        {
+          "position": 3,
+          "title": "About Queries",
+          "link": "https://testing-library.com/docs/queries/about/",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://testing-library.com/docs/queries/about/&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECBwQAQ",
+          "displayed_link": "https://testing-library.com \u203a docs \u203a queries \u203a about",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd09e85658475720a6b4ef024c10ff1e7b.webp",
+          "date": "Mar 19, 2024",
+          "snippet": "Queries are the methods that Testing Library gives you to find elements on the page. There are several types of queries (\"get\", \"find\", \"query\") ...",
+          "snippet_highlighted_words": [
+            "Queries",
+            "Testing",
+            "queries",
+            "query"
+          ],
+          "source": "Testing Library"
+        },
+        {
+          "position": 4,
+          "title": "how to test query - sql server",
+          "link": "https://dba.stackexchange.com/questions/223425/how-to-test-query",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://dba.stackexchange.com/questions/223425/how-to-test-query&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECCoQAQ",
+          "displayed_link": "https://dba.stackexchange.com \u203a questions \u203a how-to-test...",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd6fb7a0242821f8cfd43e21f615873bb0.webp",
+          "date": "Nov 26, 2018",
+          "snippet": "Yes, you can use BEGIN TRANSACTION ... ROLLBACK TRANSACTION to check certain queries. I changed the double quotes ( \" ) to the valid single ...",
+          "snippet_highlighted_words": [
+            "queries"
+          ],
+          "sitelinks": {
+            "list": [
+              {
+                "title": "Should I test against warm cache or cold cache in sql server?",
+                "link": "https://dba.stackexchange.com/questions/318562/should-i-test-against-warm-cache-or-cold-cache-in-sql-server",
+                "date": "Oct 22, 2022"
+              },
+              {
+                "title": "mysql - Write a slow query to test slow query logging?",
+                "link": "https://dba.stackexchange.com/questions/7777/write-a-slow-query-to-test-slow-query-logging",
+                "date": "Nov 11, 2011"
+              }
+            ]
+          },
+          "source": "Database Administrators Stack Exchange"
+        },
+        {
+          "position": 5,
+          "title": "[MS SQL]How do you test your queries?",
+          "link": "https://www.reddit.com/r/SQL/comments/8zapfb/ms_sqlhow_do_you_test_your_queries/",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.reddit.com/r/SQL/comments/8zapfb/ms_sqlhow_do_you_test_your_queries/&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECDEQAQ",
+          "displayed_link": "10+ comments \u00b7 6 years ago",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd0cb2161eb33109ece07e899f201cbf14.webp",
+          "snippet": "Ask someone to write the same query without looking at your code and compare results. Also throw in sample data, compare aggregate statistics ...",
+          "snippet_highlighted_words": [
+            "query"
+          ],
+          "sitelinks": {
+            "list": [
+              {
+                "title": "How do you check your SQL queries for correctness?",
+                "link": "https://www.reddit.com/r/SQL/comments/t0lrlx/how_do_you_check_your_sql_queries_for_correctness/",
+                "date": "Feb 24, 2022"
+              },
+              {
+                "title": "Quick Testing of Queries : r/SCCM",
+                "link": "https://www.reddit.com/r/SCCM/comments/wxezli/quick_testing_of_queries/",
+                "date": "Aug 25, 2022"
+              },
+              {
+                "title": "How to tell if a query is correct? : r/SQL",
+                "link": "https://www.reddit.com/r/SQL/comments/qea1ny/how_to_tell_if_a_query_is_correct/",
+                "date": "Oct 23, 2021"
+              },
+              {
+                "title": "Rules in the form of AQL query for testing : r/QRadar",
+                "link": "https://www.reddit.com/r/QRadar/comments/1dcoe5a/rules_in_the_form_of_aql_query_for_testing/",
+                "date": "Jun 10, 2024"
+              }
+            ]
+          },
+          "source": "Reddit \u00b7 r/SQL"
+        },
+        {
+          "position": 6,
+          "title": "Testing Queries",
+          "link": "https://docs.stardog.com/query-stardog/testing-queries",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://docs.stardog.com/query-stardog/testing-queries&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECD4QAQ",
+          "displayed_link": "https://docs.stardog.com \u203a query-stardog \u203a testing-queries",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd0712f250b0175769af6950b697283012.webp",
+          "snippet": "This page discusses query testing capabilities provided by Stardog to perform regression testing for correctness and performance using declarative test ...",
+          "snippet_highlighted_words": [
+            "query testing",
+            "testing",
+            "test"
+          ],
+          "source": "Stardog Documentation"
+        },
+        {
+          "position": 7,
+          "title": "SQL Online Test",
+          "link": "https://www.testdome.com/tests/sql-online-test/12",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.testdome.com/tests/sql-online-test/12&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECEIQAQ",
+          "displayed_link": "https://www.testdome.com \u203a tests \u203a sql-online-test",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd9bf95d1e57ebc39e5ef83b1d57ab02da.webp",
+          "snippet": "The SQL online test assesses SQL skills using live coding tasks that require writing CRUD operations in order to extract, combine, and manipulate data.",
+          "snippet_highlighted_words": [
+            "test"
+          ],
+          "source": "TestDome"
+        },
+        {
+          "position": 8,
+          "title": "Test an Azure Stream Analytics job with sample data",
+          "link": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-test-query",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-test-query&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECD0QAQ",
+          "displayed_link": "https://learn.microsoft.com \u203a en-us \u203a stream-analytics-test...",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd62e736053712efbf22ef52ea477ed7de.webp",
+          "date": "Jan 4, 2022",
+          "snippet": "You can test queries on incoming data from your streaming sources or upload sample data from a local file on Azure portal.",
+          "snippet_highlighted_words": [
+            "test queries"
+          ],
+          "source": "Microsoft Learn"
+        },
+        {
+          "position": 9,
+          "title": "Use SQL Server Profiler to create and test plan guides",
+          "link": "https://learn.microsoft.com/en-us/sql/relational-databases/performance/use-sql-server-profiler-to-create-and-test-plan-guides?view=sql-server-ver16",
+          "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://learn.microsoft.com/en-us/sql/relational-databases/performance/use-sql-server-profiler-to-create-and-test-plan-guides%3Fview%3Dsql-server-ver16&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQFnoECD8QAQ",
+          "displayed_link": "https://learn.microsoft.com \u203a Learn \u203a SQL \u203a SQL Server",
+          "favicon": "https://serpapi.com/searches/67356f52b7d31d5387f4bc6a/images/41928dc8a97d6bdf574cb1742f590ebd00d6fa61fadd49165baa62b2f71a49f1.webp",
+          "date": "Mar 3, 2023",
+          "snippet": "Generally, you should test plan guides by using SQL Server Profiler to verify that your query is being matched to your plan guide. Capturing ...",
+          "snippet_highlighted_words": [
+            "test",
+            "query"
+          ],
+          "source": "Microsoft Learn"
+        }
+      ],
+      "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=10&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8NMDegQIOBAW",
+        "other_pages": {
+          "2": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=10&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAE",
+          "3": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=20&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAG",
+          "4": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=30&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAI",
+          "5": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=40&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAK",
+          "6": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=50&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAM",
+          "7": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=60&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAO",
+          "8": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=70&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAQ",
+          "9": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=80&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAS",
+          "10": "https://www.google.com/search?q=test+query&sca_esv=f3c126b7a3ab2fdd&ei=U281Z5C8H52xkvQPrPOPKA&start=90&sa=N&sstk=ATObxK7uJrZJV0AxIIduYa4q6Ya3F9Ce0pNO7sQiMptV85Pt23lQhIorVsxI8HnVdDcQqQKB4Y1duwgdgVgmzzzlZ-tnpbJDY6iJ2g&ved=2ahUKEwjQsdDP8dqJAxWdmIQIHaz5AwUQ8tMDegQIOBAU"
+        }
+      },
+      "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=10",
+        "other_pages": {
+          "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=10",
+          "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=20",
+          "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=30",
+          "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=40",
+          "6": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=50",
+          "7": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=60",
+          "8": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=70",
+          "9": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=80",
+          "10": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=test+query&start=90"
+        }
+      }
+    }
+  },
+  "AlphaVantage": {
+    "status": "Success",
+    "response": {
+      "Meta Data": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "IBM",
+        "3. Last Refreshed": "2024-11-13",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+      },
+      "Time Series (Daily)": {
+        "2024-11-13": {
+          "1. open": "209.5000",
+          "2. high": "211.4100",
+          "3. low": "209.0701",
+          "4. close": "210.9200",
+          "5. volume": "3247830"
+        },
+        "2024-11-12": {
+          "1. open": "211.9000",
+          "2. high": "213.0300",
+          "3. low": "209.0600",
+          "4. close": "210.8600",
+          "5. volume": "2818216"
+        },
+        "2024-11-11": {
+          "1. open": "214.4000",
+          "2. high": "215.4100",
+          "3. low": "213.4800",
+          "4. close": "213.5700",
+          "5. volume": "3012987"
+        },
+        "2024-11-08": {
+          "1. open": "214.1600",
+          "2. high": "216.7000",
+          "3. low": "212.7809",
+          "4. close": "213.7200",
+          "5. volume": "3201038"
+        },
+        "2024-11-07": {
+          "1. open": "213.6400",
+          "2. high": "214.5199",
+          "3. low": "211.9300",
+          "4. close": "213.6900",
+          "5. volume": "3675812"
+        },
+        "2024-11-06": {
+          "1. open": "213.4800",
+          "2. high": "214.3300",
+          "3. low": "210.3700",
+          "4. close": "213.6000",
+          "5. volume": "3934386"
+        },
+        "2024-11-05": {
+          "1. open": "206.1700",
+          "2. high": "208.1150",
+          "3. low": "205.5700",
+          "4. close": "207.5700",
+          "5. volume": "2441535"
+        },
+        "2024-11-04": {
+          "1. open": "207.6500",
+          "2. high": "207.7000",
+          "3. low": "205.8000",
+          "4. close": "206.3200",
+          "5. volume": "2594119"
+        },
+        "2024-11-01": {
+          "1. open": "207.7700",
+          "2. high": "209.8400",
+          "3. low": "207.4100",
+          "4. close": "208.2500",
+          "5. volume": "3334308"
+        },
+        "2024-10-31": {
+          "1. open": "204.1300",
+          "2. high": "208.1300",
+          "3. low": "203.5100",
+          "4. close": "206.7200",
+          "5. volume": "5925250"
+        },
+        "2024-10-30": {
+          "1. open": "209.4800",
+          "2. high": "211.1200",
+          "3. low": "204.2600",
+          "4. close": "204.9000",
+          "5. volume": "6956624"
+        },
+        "2024-10-29": {
+          "1. open": "211.9900",
+          "2. high": "213.3400",
+          "3. low": "209.8500",
+          "4. close": "210.4300",
+          "5. volume": "5258366"
+        },
+        "2024-10-28": {
+          "1. open": "215.5000",
+          "2. high": "216.2500",
+          "3. low": "212.7000",
+          "4. close": "212.9100",
+          "5. volume": "4993343"
+        },
+        "2024-10-25": {
+          "1. open": "216.8000",
+          "2. high": "218.6500",
+          "3. low": "214.3850",
+          "4. close": "214.6700",
+          "5. volume": "8482235"
+        },
+        "2024-10-24": {
+          "1. open": "220.8000",
+          "2. high": "221.3200",
+          "3. low": "216.1600",
+          "4. close": "218.3900",
+          "5. volume": "11193440"
+        },
+        "2024-10-23": {
+          "1. open": "230.4100",
+          "2. high": "233.3400",
+          "3. low": "230.2600",
+          "4. close": "232.7500",
+          "5. volume": "5791002"
+        },
+        "2024-10-22": {
+          "1. open": "231.9900",
+          "2. high": "232.9700",
+          "3. low": "230.6700",
+          "4. close": "232.2500",
+          "5. volume": "3180807"
+        },
+        "2024-10-21": {
+          "1. open": "231.2100",
+          "2. high": "232.4200",
+          "3. low": "230.2600",
+          "4. close": "231.7500",
+          "5. volume": "2733336"
+        },
+        "2024-10-18": {
+          "1. open": "231.9200",
+          "2. high": "232.6499",
+          "3. low": "230.1700",
+          "4. close": "232.2000",
+          "5. volume": "4715688"
+        },
+        "2024-10-17": {
+          "1. open": "232.0000",
+          "2. high": "233.1450",
+          "3. low": "230.6550",
+          "4. close": "232.8800",
+          "5. volume": "5040092"
+        },
+        "2024-10-16": {
+          "1. open": "232.1100",
+          "2. high": "233.8800",
+          "3. low": "231.1200",
+          "4. close": "233.6700",
+          "5. volume": "2846669"
+        },
+        "2024-10-15": {
+          "1. open": "236.4000",
+          "2. high": "237.3700",
+          "3. low": "232.7100",
+          "4. close": "232.9600",
+          "5. volume": "3350556"
+        },
+        "2024-10-14": {
+          "1. open": "233.5700",
+          "2. high": "236.1200",
+          "3. low": "233.1700",
+          "4. close": "235.2600",
+          "5. volume": "2524389"
+        },
+        "2024-10-11": {
+          "1. open": "233.2500",
+          "2. high": "233.4400",
+          "3. low": "230.4600",
+          "4. close": "233.2600",
+          "5. volume": "3469322"
+        },
+        "2024-10-10": {
+          "1. open": "235.1000",
+          "2. high": "235.8300",
+          "3. low": "231.8100",
+          "4. close": "233.0200",
+          "5. volume": "3142031"
+        },
+        "2024-10-09": {
+          "1. open": "229.2000",
+          "2. high": "234.9500",
+          "3. low": "228.5000",
+          "4. close": "234.3000",
+          "5. volume": "5083566"
+        },
+        "2024-10-08": {
+          "1. open": "228.1100",
+          "2. high": "229.3450",
+          "3. low": "227.0401",
+          "4. close": "228.6200",
+          "5. volume": "3245342"
+        },
+        "2024-10-07": {
+          "1. open": "225.3800",
+          "2. high": "227.6700",
+          "3. low": "225.0200",
+          "4. close": "227.1200",
+          "5. volume": "3457952"
+        },
+        "2024-10-04": {
+          "1. open": "223.7500",
+          "2. high": "226.0800",
+          "3. low": "223.2700",
+          "4. close": "226.0000",
+          "5. volume": "3554328"
+        },
+        "2024-10-03": {
+          "1. open": "219.5000",
+          "2. high": "222.8300",
+          "3. low": "219.2700",
+          "4. close": "222.7200",
+          "5. volume": "3788265"
+        },
+        "2024-10-02": {
+          "1. open": "218.3100",
+          "2. high": "220.2000",
+          "3. low": "215.7980",
+          "4. close": "219.7300",
+          "5. volume": "3343399"
+        },
+        "2024-10-01": {
+          "1. open": "220.6300",
+          "2. high": "221.1000",
+          "3. low": "215.9000",
+          "4. close": "219.3500",
+          "5. volume": "3548374"
+        },
+        "2024-09-30": {
+          "1. open": "220.6500",
+          "2. high": "221.3200",
+          "3. low": "219.0200",
+          "4. close": "221.0800",
+          "5. volume": "3544264"
+        },
+        "2024-09-27": {
+          "1. open": "223.0000",
+          "2. high": "224.1500",
+          "3. low": "220.7700",
+          "4. close": "220.8400",
+          "5. volume": "3830335"
+        },
+        "2024-09-26": {
+          "1. open": "222.1100",
+          "2. high": "224.0000",
+          "3. low": "221.3550",
+          "4. close": "223.4300",
+          "5. volume": "2673210"
+        },
+        "2024-09-25": {
+          "1. open": "221.1700",
+          "2. high": "221.8500",
+          "3. low": "220.1600",
+          "4. close": "221.2300",
+          "5. volume": "2537751"
+        },
+        "2024-09-24": {
+          "1. open": "219.7800",
+          "2. high": "221.1900",
+          "3. low": "218.1600",
+          "4. close": "220.9700",
+          "5. volume": "3184114"
+        },
+        "2024-09-23": {
+          "1. open": "218.0000",
+          "2. high": "220.6200",
+          "3. low": "217.2700",
+          "4. close": "220.5000",
+          "5. volume": "4074755"
+        },
+        "2024-09-20": {
+          "1. open": "214.3300",
+          "2. high": "217.8500",
+          "3. low": "213.7400",
+          "4. close": "217.7000",
+          "5. volume": "9958980"
+        },
+        "2024-09-19": {
+          "1. open": "218.0100",
+          "2. high": "218.4800",
+          "3. low": "210.3700",
+          "4. close": "213.8900",
+          "5. volume": "5279559"
+        },
+        "2024-09-18": {
+          "1. open": "214.1300",
+          "2. high": "216.8600",
+          "3. low": "213.5900",
+          "4. close": "214.9400",
+          "5. volume": "3482764"
+        },
+        "2024-09-17": {
+          "1. open": "217.2500",
+          "2. high": "218.8400",
+          "3. low": "213.0000",
+          "4. close": "214.1300",
+          "5. volume": "5635210"
+        },
+        "2024-09-16": {
+          "1. open": "215.8800",
+          "2. high": "217.9000",
+          "3. low": "215.5200",
+          "4. close": "217.1600",
+          "5. volume": "4176257"
+        },
+        "2024-09-13": {
+          "1. open": "212.4800",
+          "2. high": "216.0900",
+          "3. low": "212.1300",
+          "4. close": "214.7900",
+          "5. volume": "4572344"
+        },
+        "2024-09-12": {
+          "1. open": "210.0000",
+          "2. high": "212.6500",
+          "3. low": "208.2650",
+          "4. close": "211.6100",
+          "5. volume": "4616446"
+        },
+        "2024-09-11": {
+          "1. open": "207.7600",
+          "2. high": "210.1200",
+          "3. low": "203.0400",
+          "4. close": "209.8900",
+          "5. volume": "5554309"
+        },
+        "2024-09-10": {
+          "1. open": "204.2000",
+          "2. high": "205.8300",
+          "3. low": "202.8700",
+          "4. close": "205.3200",
+          "5. volume": "3070644"
+        },
+        "2024-09-09": {
+          "1. open": "201.9400",
+          "2. high": "205.0500",
+          "3. low": "201.4300",
+          "4. close": "203.5300",
+          "5. volume": "3705004"
+        },
+        "2024-09-06": {
+          "1. open": "202.3800",
+          "2. high": "204.1000",
+          "3. low": "199.3350",
+          "4. close": "200.7400",
+          "5. volume": "3304491"
+        },
+        "2024-09-05": {
+          "1. open": "204.0800",
+          "2. high": "205.9500",
+          "3. low": "200.9600",
+          "4. close": "202.5900",
+          "5. volume": "3229345"
+        },
+        "2024-09-04": {
+          "1. open": "200.7600",
+          "2. high": "204.3600",
+          "3. low": "200.5000",
+          "4. close": "204.1100",
+          "5. volume": "3111332"
+        },
+        "2024-09-03": {
+          "1. open": "201.9100",
+          "2. high": "204.7200",
+          "3. low": "200.2100",
+          "4. close": "201.2800",
+          "5. volume": "3874697"
+        },
+        "2024-08-30": {
+          "1. open": "199.1100",
+          "2. high": "202.1700",
+          "3. low": "198.7300",
+          "4. close": "202.1300",
+          "5. volume": "4750999"
+        },
+        "2024-08-29": {
+          "1. open": "199.3000",
+          "2. high": "201.1200",
+          "3. low": "198.2700",
+          "4. close": "198.9000",
+          "5. volume": "2989594"
+        },
+        "2024-08-28": {
+          "1. open": "199.0000",
+          "2. high": "200.0000",
+          "3. low": "197.4900",
+          "4. close": "198.4600",
+          "5. volume": "2645244"
+        },
+        "2024-08-27": {
+          "1. open": "197.4400",
+          "2. high": "199.4000",
+          "3. low": "196.9700",
+          "4. close": "198.7300",
+          "5. volume": "2617229"
+        },
+        "2024-08-26": {
+          "1. open": "196.0000",
+          "2. high": "198.3450",
+          "3. low": "195.9000",
+          "4. close": "197.9800",
+          "5. volume": "2567217"
+        },
+        "2024-08-23": {
+          "1. open": "196.7900",
+          "2. high": "197.3800",
+          "3. low": "194.3900",
+          "4. close": "196.1000",
+          "5. volume": "2321961"
+        },
+        "2024-08-22": {
+          "1. open": "197.2500",
+          "2. high": "197.9200",
+          "3. low": "195.5700",
+          "4. close": "195.9600",
+          "5. volume": "1969496"
+        },
+        "2024-08-21": {
+          "1. open": "195.9700",
+          "2. high": "197.3300",
+          "3. low": "194.1150",
+          "4. close": "197.2100",
+          "5. volume": "2579343"
+        },
+        "2024-08-20": {
+          "1. open": "194.5900",
+          "2. high": "196.2100",
+          "3. low": "193.7500",
+          "4. close": "196.0300",
+          "5. volume": "1790371"
+        },
+        "2024-08-19": {
+          "1. open": "193.8400",
+          "2. high": "195.5250",
+          "3. low": "193.7150",
+          "4. close": "194.7300",
+          "5. volume": "2361378"
+        },
+        "2024-08-16": {
+          "1. open": "193.5800",
+          "2. high": "194.3500",
+          "3. low": "192.8600",
+          "4. close": "193.7800",
+          "5. volume": "2494472"
+        },
+        "2024-08-15": {
+          "1. open": "193.5100",
+          "2. high": "194.2500",
+          "3. low": "193.2800",
+          "4. close": "193.9500",
+          "5. volume": "2471985"
+        },
+        "2024-08-14": {
+          "1. open": "191.1500",
+          "2. high": "193.0900",
+          "3. low": "190.7300",
+          "4. close": "192.3200",
+          "5. volume": "1895114"
+        },
+        "2024-08-13": {
+          "1. open": "190.2900",
+          "2. high": "191.3100",
+          "3. low": "189.2100",
+          "4. close": "190.9900",
+          "5. volume": "2178862"
+        },
+        "2024-08-12": {
+          "1. open": "191.2500",
+          "2. high": "191.5761",
+          "3. low": "189.0001",
+          "4. close": "189.4800",
+          "5. volume": "2290421"
+        },
+        "2024-08-09": {
+          "1. open": "191.1800",
+          "2. high": "192.6300",
+          "3. low": "189.0400",
+          "4. close": "191.4500",
+          "5. volume": "2773706"
+        },
+        "2024-08-08": {
+          "1. open": "187.5000",
+          "2. high": "192.8800",
+          "3. low": "187.0000",
+          "4. close": "192.6100",
+          "5. volume": "3712698"
+        },
+        "2024-08-07": {
+          "1. open": "188.0800",
+          "2. high": "189.8700",
+          "3. low": "186.7000",
+          "4. close": "186.8000",
+          "5. volume": "3801942"
+        },
+        "2024-08-06": {
+          "1. open": "184.7000",
+          "2. high": "188.9000",
+          "3. low": "183.6400",
+          "4. close": "186.8000",
+          "5. volume": "3632517"
+        },
+        "2024-08-05": {
+          "1. open": "184.5500",
+          "2. high": "185.2550",
+          "3. low": "181.8100",
+          "4. close": "183.3100",
+          "5. volume": "4975002"
+        },
+        "2024-08-02": {
+          "1. open": "188.7800",
+          "2. high": "189.2600",
+          "3. low": "185.7000",
+          "4. close": "189.1200",
+          "5. volume": "4548824"
+        },
+        "2024-08-01": {
+          "1. open": "192.8100",
+          "2. high": "193.6350",
+          "3. low": "188.2900",
+          "4. close": "189.6600",
+          "5. volume": "4085354"
+        },
+        "2024-07-31": {
+          "1. open": "191.0000",
+          "2. high": "194.5499",
+          "3. low": "189.9900",
+          "4. close": "192.1400",
+          "5. volume": "5558405"
+        },
+        "2024-07-30": {
+          "1. open": "191.4800",
+          "2. high": "192.7700",
+          "3. low": "189.0900",
+          "4. close": "191.0400",
+          "5. volume": "3064978"
+        },
+        "2024-07-29": {
+          "1. open": "193.1800",
+          "2. high": "193.2900",
+          "3. low": "189.1800",
+          "4. close": "191.5000",
+          "5. volume": "3336806"
+        },
+        "2024-07-26": {
+          "1. open": "190.5100",
+          "2. high": "193.5700",
+          "3. low": "189.6220",
+          "4. close": "191.7500",
+          "5. volume": "4294875"
+        },
+        "2024-07-25": {
+          "1. open": "186.8000",
+          "2. high": "196.2600",
+          "3. low": "185.3000",
+          "4. close": "191.9800",
+          "5. volume": "9532802"
+        },
+        "2024-07-24": {
+          "1. open": "184.1400",
+          "2. high": "185.0714",
+          "3. low": "183.1450",
+          "4. close": "184.0200",
+          "5. volume": "6962071"
+        },
+        "2024-07-23": {
+          "1. open": "184.3600",
+          "2. high": "185.3800",
+          "3. low": "183.0100",
+          "4. close": "184.1000",
+          "5. volume": "2180225"
+        },
+        "2024-07-22": {
+          "1. open": "183.4000",
+          "2. high": "184.9700",
+          "3. low": "182.8600",
+          "4. close": "184.1500",
+          "5. volume": "2488525"
+        },
+        "2024-07-19": {
+          "1. open": "186.3300",
+          "2. high": "187.0000",
+          "3. low": "181.9500",
+          "4. close": "183.2500",
+          "5. volume": "3816039"
+        },
+        "2024-07-18": {
+          "1. open": "186.6400",
+          "2. high": "189.4700",
+          "3. low": "185.1000",
+          "4. close": "185.2200",
+          "5. volume": "3487808"
+        },
+        "2024-07-17": {
+          "1. open": "185.4400",
+          "2. high": "187.9400",
+          "3. low": "185.0700",
+          "4. close": "187.4500",
+          "5. volume": "4225302"
+        },
+        "2024-07-16": {
+          "1. open": "184.6700",
+          "2. high": "186.6000",
+          "3. low": "184.5200",
+          "4. close": "185.8100",
+          "5. volume": "3374526"
+        },
+        "2024-07-15": {
+          "1. open": "183.3800",
+          "2. high": "184.9000",
+          "3. low": "182.6000",
+          "4. close": "182.8800",
+          "5. volume": "2925794"
+        },
+        "2024-07-12": {
+          "1. open": "178.5600",
+          "2. high": "184.1600",
+          "3. low": "178.5000",
+          "4. close": "182.8300",
+          "5. volume": "4785565"
+        },
+        "2024-07-11": {
+          "1. open": "177.6500",
+          "2. high": "179.4400",
+          "3. low": "176.6200",
+          "4. close": "178.3100",
+          "5. volume": "2807145"
+        },
+        "2024-07-10": {
+          "1. open": "176.6000",
+          "2. high": "178.2200",
+          "3. low": "174.4500",
+          "4. close": "177.8400",
+          "5. volume": "3462182"
+        },
+        "2024-07-09": {
+          "1. open": "177.6000",
+          "2. high": "177.7000",
+          "3. low": "175.5800",
+          "4. close": "176.4800",
+          "5. volume": "2513305"
+        },
+        "2024-07-08": {
+          "1. open": "176.4100",
+          "2. high": "178.5900",
+          "3. low": "176.0100",
+          "4. close": "177.6400",
+          "5. volume": "2503038"
+        },
+        "2024-07-05": {
+          "1. open": "175.7400",
+          "2. high": "176.0900",
+          "3. low": "173.9500",
+          "4. close": "176.0200",
+          "5. volume": "2085970"
+        },
+        "2024-07-03": {
+          "1. open": "177.8800",
+          "2. high": "177.9800",
+          "3. low": "175.1700",
+          "4. close": "175.7300",
+          "5. volume": "1649049"
+        },
+        "2024-07-02": {
+          "1. open": "174.8400",
+          "2. high": "177.4850",
+          "3. low": "174.3200",
+          "4. close": "177.3000",
+          "5. volume": "2883275"
+        },
+        "2024-07-01": {
+          "1. open": "173.4500",
+          "2. high": "176.4600",
+          "3. low": "173.3800",
+          "4. close": "175.1000",
+          "5. volume": "3320961"
+        },
+        "2024-06-28": {
+          "1. open": "170.8500",
+          "2. high": "173.4600",
+          "3. low": "170.5300",
+          "4. close": "172.9500",
+          "5. volume": "4193459"
+        },
+        "2024-06-27": {
+          "1. open": "171.1200",
+          "2. high": "172.5000",
+          "3. low": "170.4800",
+          "4. close": "170.8500",
+          "5. volume": "2894001"
+        },
+        "2024-06-26": {
+          "1. open": "171.2800",
+          "2. high": "172.6800",
+          "3. low": "170.4100",
+          "4. close": "171.8700",
+          "5. volume": "2779016"
+        },
+        "2024-06-25": {
+          "1. open": "175.1400",
+          "2. high": "175.7526",
+          "3. low": "171.4200",
+          "4. close": "172.6000",
+          "5. volume": "4119267"
+        }
+      }
+    }
+  },
+  "Google Drive": {
+    "status": "Success",
+    "response": "[{'id': '143TXyiMGfK37TUcUL7Y0qcuzHQUIQ2vY', 'name': 'OLD DOCS'}, {'id': '11cu9xpXCBg9ARIP7P4YKZLq51ouHbq-F', 'name': 'CAP - Workbook Project Plan Summary 11-13-24 v2.xlsx'}, {'id': '1l3-mR7UnA6BfDp5XNAkCWfg4T7MON8a7mkoIVpfXyJ0', 'name': 'Yale Intern Meeting Agenda and Notes (November 14 2024)'}, {'id': '1cYZYJ0R937K1hZ-SWpegaOOt1-R5Q4oyl6l-3RHjgJY', 'name': 'CRCM Asset List [INTERNAL version]'}, {'id': '1tJ_n8kpiAFE38LXi1MjFG-l39r5X91iJ8ISO8BF7vSo', 'name': 'Trump Presidency - impact on venture investments between the US and China'}, {'id': '1d2q-wk9B6ierruB6P3acX28WrKptwEDc', 'name': 'CAP - Workbook Project Planner.xlsx'}, {'id': '1rIWlVmyLz7tS1G8jLHXPzOROazax-4IL', 'name': 'Writting'}, {'id': '1UwwoqRKKVw9THREErfjuEs9pdW0baY0c', 'name': 'The Return of Peace Through Strength.pdf'}, {'id': '1b5H1TrIWL59auDwS7B2p-gBuFYD-eURJ', 'name': \"Trump's Win Signals More Confrontation with Beijing.pdf\"}, {'id': '19bHe4I9eRGLSRJrYWL9IoDKVUyAaUlLw', 'name': 'What Trump Could Do First in AI, China and Chips .pdf'}]"
+  },
+  "Ollama": {
+    "status": "Success",
+    "response": {
+      "model": "llama2",
+      "created_at": "2024-11-14T04:23:04.841558Z",
+      "response": " Hello! I'm just an AI assistant, so I don't have feelings or emotions like humans do. I'm here to help answer any questions you may have or assist with tasks, but I don't have the capacity to experience emotions or feel things the way humans do. Is there something else I can help you with?",
+      "done": true,
+      "done_reason": "stop",
+      "context": [
+        518,
+        25580,
+        29962,
+        3532,
+        14816,
+        29903,
+        29958,
+        5299,
+        829,
+        14816,
+        29903,
+        6778,
+        13,
+        13,
+        10994,
+        29892,
+        920,
+        526,
+        366,
+        29973,
+        518,
+        29914,
+        25580,
+        29962,
+        13,
+        15043,
+        29991,
+        306,
+        29915,
+        29885,
+        925,
+        385,
+        319,
+        29902,
+        20255,
+        29892,
+        577,
+        306,
+        1016,
+        29915,
+        29873,
+        505,
+        21737,
+        470,
+        23023,
+        1080,
+        763,
+        25618,
+        437,
+        29889,
+        306,
+        29915,
+        29885,
+        1244,
+        304,
+        1371,
+        1234,
+        738,
+        5155,
+        366,
+        1122,
+        505,
+        470,
+        6985,
+        411,
+        9595,
+        29892,
+        541,
+        306,
+        1016,
+        29915,
+        29873,
+        505,
+        278,
+        13284,
+        304,
+        7271,
+        23023,
+        1080,
+        470,
+        4459,
+        2712,
+        278,
+        982,
+        25618,
+        437,
+        29889,
+        1317,
+        727,
+        1554,
+        1683,
+        306,
+        508,
+        1371,
+        366,
+        411,
+        29973
+      ],
+      "total_duration": 4029317125,
+      "load_duration": 23428542,
+      "prompt_eval_count": 26,
+      "prompt_eval_duration": 1970324000,
+      "eval_count": 73,
+      "eval_duration": 2031596000
+    }
+  }
+}

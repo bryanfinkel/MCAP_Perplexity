@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Chat Interface</title>
+    <style>
+        .chat-container {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .chat-windows {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .chat-window {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+            overflow-y: auto;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background-color: #e3f2fd;
+        }
+        .assistant-message {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="sidebar">
+            <h3>Settings</h3>
+            <div>
+                <input type="checkbox" id="gpt" checked>
+                <label for="gpt">GPT-4</label>
+            </div>
+            <div>
+                <input type="checkbox" id="claude" checked>
+                <label for="claude">Claude</label>
+            </div>
+            <div>
+                <input type="checkbox" id="perplexity" checked>
+                <label for="perplexity">Perplexity</label>
+            </div>
+        </div>
+        
+        <div class="chat-windows">
+            <div id="gpt-window" class="chat-window">
+                <h3>GPT-4</h3>
+                <div id="gpt-messages"></div>
+            </div>
+            <div id="claude-window" class="chat-window">
+                <h3>Claude</h3>
+                <div id="claude-messages"></div>
+            </div>
+            <div id="perplexity-window" class="chat-window">
+                <h3>Perplexity</h3>
+                <div id="perplexity-messages"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="margin: 20px;">
+        <textarea id="user-input" rows="4" style="width: 100%;"></textarea>
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const message = document.getElementById('user-input').value;
+            if (!message) return;
+
+            const selected_llms = [];
+            if (document.getElementById('gpt').checked) selected_llms.push('gpt');
+            if (document.getElementById('claude').checked) selected_llms.push('claude');
+            if (document.getElementById('perplexity').checked) selected_llms.push('perplexity');
+
+            // Add user message to all selected windows
+            selected_llms.forEach(llm => {
+                const messagesDiv = document.getElementById(`${llm}-messages`);
+                messagesDiv.innerHTML += `
+                    <div class="message user-message">
+                        <strong>You:</strong> ${message}
+                    </div>
+                `;
+            });
+
+            // Clear input
+            document.getElementById('user-input').value = '';
+
+            try {
+                const response = await fetch('/chat/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message,
+                        selected_llms
+                    })
+                });
+
+                const data = await response.json();
+
+                // Add responses to respective windows
+                Object.entries(data.responses).forEach(([llm, response]) => {
+                    const messagesDiv = document.getElementById(`${llm}-messages`);
+                    messagesDiv.innerHTML += `
+                        <div class="message assistant-message">
+                            <strong>Assistant:</strong> ${response}
+                        </div>
+                    `;
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                });
+
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+    </script>
+</body>
+</html>
